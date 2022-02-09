@@ -12,8 +12,8 @@ jobs:
     name: solar-data-tools
     runs-on: ubuntu-latest
     steps:
-      - name: solar-data-tools
-        uses: jgehrcke/github-repo-stats@v1.1.0
+      - name: github-repo-stats
+        uses: jgehrcke/github-repo-stats@v1.3.0
         with:
           # ghpagesprefix: https://jgehrcke.github.io/ghrs-test
           # Define the target repository, the repo to fetch
